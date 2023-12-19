@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <title>Modulo de productos</title>
+        <div class="text-light bg-dark">
+          <br>
+          <h2 class="text-center">Agregar producto</h2>
+          <br>
+        </div>
+        <meta charset="utf-8">
+    </head>
+    <body>
+      <style>
+        body{
+          background:url(fondo2.jpg);
+          background-size:cover;
+          background-repeat: no-repeat;
+          color:brown;
+        }
+
+      </style>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <div class="contenedor">
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" href="inicio.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="consultaProductos.php">Tabla De producto</a>
+            </li>
+
+          </ul>
+          <meta name="viewport" content="while=device-width,initial-scale=1,shrink-to-fit=no">
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+             
+                <div class="row">
+                <div class="col"></div>
+                <br>
+                <div class="col">
+                  <br>
+                  <form id="frmProductos"          
+                  action="Altaproducto.php" method="post">
+                    
+                  <div class="mb-8"> 
+                    <label for="inputIdproductos"
+                        class="form-label">
+                        Id del producto:
+                        </label>
+                        <input type="text"
+                    placeholder= "ID del producto"
+                    class="form-control-sm"
+                    id="imputIdProductos" name="imputIdProductos"
+                    aria-label="form control-sm"
+                    div class="">
+                    <hr>
+                    <div class="">
+                    <label for="imputDescripcion">Descripcion</label> 
+                    <input type="text"
+                    placeholder="Descripcion del producto"
+                    class="form-control"
+                    aria-label="form-control-sm"
+                    id="inputDescripcion" name="inputDescripcion"> </div>
+                  </div>
+                  <div class="mb-4"> <!--titulos con una barra de opciones  -->
+                    <label for="selectMarca">
+                        Marca:
+                    </label>
+                    
+                    <select class="form-select form-select-sm"
+                      id="selectMarca" name="selectMarca">
+                      <option value="1">Howlettpacket</option>
+                      <option value="2">Dell</option>
+                      <option value="3">Lenovo</option>
+                      <option value="4">Acer</option>
+                      <option value="5">Asus</option>
+                      <option value="6">Huawei</option>
+                    </select>
+                  </div>
+                  <div class="mb-3">  <!--mb es la separacion de lienas   -->
+                    <label for="imputCantidad">
+                      Cantidad
+                    </label>
+                    <input type="text"
+                    id="imputCantidad" name="imputCantidad"
+                    class="form-control-sm"
+                    placeholder="Cantidad"
+                    aria-label="form-control-sm">
+                 </div>
+                 <div class=""> <!--titulos con una barra de escritura  -->
+                    <label for="imputprecio">
+                      precio
+                    </label>
+                    <input type="text"
+                    id="imputprecio" name="imputprecio"
+                    class="form-control-sm"
+                    placeholder="precio"
+                    aria-label="form-control-sm">
+                 </div>
+                 <br>
+                 <div class="">
+                  <a href="consultaProductos.php"><button type="submit" class="btn btn-outline-success"> Guardar</button></a>
+                  
+
+                   <button type="reset" class="btn btn-outline-danger">Cancelar</button>
+
+                  </div>
+                 </div>
+                 <!-- aqui -->
+                <div class="col"></div>
+              </div>
+              </div> 
+                
+    </body>
+
+    <footer>
+      
+
+    </footer> <!--parte de abajo como comentarios -->
+</html>
