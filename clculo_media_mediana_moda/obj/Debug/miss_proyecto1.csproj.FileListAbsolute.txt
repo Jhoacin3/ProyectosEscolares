@@ -1,0 +1,14 @@
+C:\Users\jhoac\source\repos\miss_proyecto1\bin\Debug\miss_proyecto1.exe.config
+C:\Users\jhoac\source\repos\miss_proyecto1\bin\Debug\miss_proyecto1.exe
+C:\Users\jhoac\source\repos\miss_proyecto1\bin\Debug\miss_proyecto1.pdb
+C:\Users\jhoac\source\repos\miss_proyecto1\obj\Debug\miss_proyecto1.csproj.AssemblyReference.cache
+C:\Users\jhoac\source\repos\miss_proyecto1\obj\Debug\miss_proyecto1.csproj.CoreCompileInputs.cache
+C:\Users\jhoac\source\repos\miss_proyecto1\obj\Debug\miss_proyecto1.exe
+C:\Users\jhoac\source\repos\miss_proyecto1\obj\Debug\miss_proyecto1.pdb
+D:\Nueva carpeta\miss_proyecto1\bin\Debug\miss_proyecto1.exe.config
+D:\Nueva carpeta\miss_proyecto1\bin\Debug\miss_proyecto1.exe
+D:\Nueva carpeta\miss_proyecto1\bin\Debug\miss_proyecto1.pdb
+D:\Nueva carpeta\miss_proyecto1\obj\Debug\miss_proyecto1.csproj.AssemblyReference.cache
+D:\Nueva carpeta\miss_proyecto1\obj\Debug\miss_proyecto1.csproj.CoreCompileInputs.cache
+D:\Nueva carpeta\miss_proyecto1\obj\Debug\miss_proyecto1.exe
+D:\Nueva carpeta\miss_proyecto1\obj\Debug\miss_proyecto1.pdb
