@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+ 
+body{
+    background: linear-gradient(50deg, #FF5400,#FEC35D,#FF2A70,#FFA49F);
+    background-size: 400% 400%;
+    animation: cambiar 10s ease infinite;
+
+}
+@keyframes cambiar{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+}
+.container{
+    display: flex;
+}
+.form-calcular{
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    box-shadow:  7px 13px 37px #000;
+}
+input{
+    color: aliceblue;
+}
+
+.form-calcular h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: aliceblue;
+    text-align: center;
+}
+.form-calcular h5{
+    font-size: 17px;
+    margin-bottom: 5px;
+    color: rgb(168, 187, 205);
+}
+.controls{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    border: 1px solid #3f96b0;
+    font-size: 15px;
+
+}
+.form-calcular .bottons{
+    width: 40%;
+    background: #1eaabc;
+    border: none;
+    border-radius: 4px;
+    padding: 12px;
+    font-size: 15px;
+    margin: 16px 80px;
+    cursor: pointer;
+}
+.form-calcular .bottons:hover{
+    background-color: rgb(38, 188, 91);
+}
+/* div2 */
+.form-calcular1{
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    box-shadow:  7px 13px 37px #000;
+}
+
+.form-calcular1 h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: aliceblue;
+    text-align: center;
+}
+.form-calcular1 h5{
+    font-size: 17px;
+    margin-bottom: 5px;
+    color: rgb(168, 187, 205);
+}
+.controls{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    border: 1px solid #3f96b0;
+    font-size: 15px;
+
+}
+.form-calcular1 .bottons{
+    width: 50%;
+    background: #1eaabc;
+    border: none;
+    border-radius: 4px;
+    padding: 12px;
+    font-size: 15px;
+    margin: 16px 80px;
+    cursor: pointer;
+}
+.form-calcular1 .bottons:hover{
+    background-color: rgb(38, 188, 91);
+}
